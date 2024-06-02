@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <link rel="stylesheet" href="Timetable.css">
+</head>
+<body>
+    
+    <table border="black">
+
+        <caption><h2>Time-Table</h2></caption>
+        
+        <thead >
+            <tr id="head">
+                <th class="heading">Day/Period</th>
+                <th class="heading">I <br>9:30-10:20</th>
+                <th class="heading">II<br>10:20-11:10</th>
+                <th class="heading">III <br>11:10-12:00</th>
+                <th class="heading">12-12:40</th>
+                <th class="heading">IV <BR>12:40-1:30</th>
+                <th class="heading">V <br>1:30-2:20</th>
+                <th class="heading">VI <br>2:20-3:10</th>
+                <th class="heading">VII <br>3:10-4:00</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr id="Mon">
+                <td class="heading1">Monday</td>
+                <td class="heading1">Eng</td>
+                <td class="heading1">Math</td>
+                <td class="heading1">Chem</td>
+                <td rowspan="6" id="lunch">Lunch</td>
+                <td colspan="3" class="heading1" id="lab0">Lab</td>
+                <td class="heading1">Phy</td>
+            </tr>
+            <tr id="Tue">
+                <td class="heading2">Tuesday</td>
+                <td colspan="3" class="heading2" id="lab1">Lab</td>
+                <td class="heading2">Eng</td>
+                <td class="heading2">Chem</td>
+                <td class="heading2">Math</td>
+                <td class="heading2">Sports</td>
+            </tr>
+            <tr id="Wed">
+                <td class="heading3">Wednesday</td>
+                <td class="heading3">Math</td>
+                <td class="heading3">Phy</td>
+                <td class="heading3">Eng</td>
+                <td class="heading3">Chem</td>
+                <td colspan="3" class="heading3" id="lib">Library</td>
+            </tr>
+            <tr id="Thurs">
+                <td class="heading4">Thursday</td>
+                <td class="heading4">Phy</td>
+                <td class="heading4">Eng</td>
+                <td class="heading4">Chem</td>
+                <td colspan="3" class="heading4" id="lab2">Lab</td>
+                <td class="heading4">Math</td>
+            </tr>
+            <tr id="Fri">
+                <td class="heading5">Friday</td>
+                <td  colspan="3" class="heading5" id="lab3">Lab</td>
+                <td class="heading5">Math</td>
+                <td class="heading5">Chem</td>
+                <td class="heading5">Eng</td>
+                <td class="heading5">Phy</td>
+            </tr>
+
+            <tr id="Sat">
+                <td class="heading6">Saturday</td>
+                <td class="heading6">Eng</td>
+                <td class="heading6">Chem</td>
+                <td class="heading6">Math</td>
+                <td class="heading6"  colspan="3" id="sem">Seminar</td>
+                <td>Sports</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <tr>
+            <td colspan="6" id="faculty">Faculties</td>
+        </tr>
+        <tr id="foot">
+            <td class="footer">Mathematics- Mr.Sujay</td>
+            <td class="footer">English- Mrs.Reshma</td>
+            <td class="footer">Science- Mr.Kaivalya</td>
+            <td class="footer">SST- Mr.Ashutosh</td>
+            <td class="footer">Chemistry-Mrs.Ana</td>
+            <td class="footer">Physics-Mrs.Minal</td>
+        </tr>
+    </table>
+</body>
+</html>

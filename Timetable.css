@@ -1,0 +1,65 @@
+table{
+    margin: 15px auto;
+    border-collapse:collapse ;
+    text-align: center;
+    border: 2px solid black;
+    width: 821.375px;
+}
+
+#head{
+    border: 2px solid black;
+    background-color:rgb(177, 175, 177);
+}
+
+.heading,.heading1,.heading2,.heading3,.heading4,.heading5,.heading6{
+    border: 2px solid black;
+}
+
+#lab0,#lab1,#lab2,#lab3,#sem,#lib{
+    background-color: rgb(162, 162, 238);
+}
+
+
+#Mon:hover,#Tue:hover,#Wed:hover,#Thurs:hover,#Fri:hover,#Sat:hover{
+    box-shadow: 2px 2px 5px rgb(0,0,0);
+}
+
+#Mon{
+    background-color: rgb(170, 207, 207);
+}
+#Tue{
+    background-color: bisque;
+}
+#Wed{
+    background-color: pink;
+}
+#Thurs{
+    background-color: lightskyblue;
+}
+#Fri{
+    background-color: rgb(206, 249, 162);
+}
+#Sat{
+    background-color: rgb(248, 151, 163);
+}
+#lunch{
+    background-color: rgb(177, 175, 177);
+
+}
+#lunch:hover{
+    box-shadow: none;
+}
+#foot{
+     border: 2px solid black;;
+}
+.footer{
+    border: 2px solid black;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#faculty{
+    background-color: rgb(177, 175, 177);;
+}
